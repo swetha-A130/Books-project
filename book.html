@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+    <link href="./styles/book.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="hero_container">
+      <div class="hero_container_content">
+        <h1 class="hero_container_heading">Book Geek</h1>
+        <p class="hero_container_subheading">A Perfect Book for You</p>
+      </div>
+    </div>
+
+    <section id="book_detials">
+      <h2 id="book_title">Book title</h2>
+      <h3 id="book_subtitle">I am book subtitle</h3>
+
+      <p id="book_description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+        porro praesentium ut fuga quod, id nostrum repellendus, facere sit
+        quaerat nihil maiores, tempora iste possimus accusantium molestiae
+        quidem rem doloribus?
+      </p>
+
+      <div id="book_authors">
+        <span class="book_authors_by">By</span>
+        <span id="book_autor">Unkown</span>
+      </div>
+
+      <div id="book_categories">Categories:</div>
+
+      <div id="book_publishers">
+        <p class="book_publish">
+          Published By: <span id="book_publisher">Library.com</span>
+        </p>
+        <p class="book_publish">
+          Published Date: <span id="book_published_date">Recently</span>
+        </p>
+      </div>
+      <div id="book_price" class="not_for_sale">Not for Sale</div>
+      <div class="book_cta">
+        <button id="book_preview">Preview</button>
+      </div>
+    </section>
+    <section id="book_loader">Loading Book ...</section>
+    <section id="book_error">
+      Book Not Available Currenty <a href="./index.html">Go to Home</a>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script type="module" src="./scripts/book.js"></script>
+  </body>
+</html>
